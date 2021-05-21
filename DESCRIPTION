@@ -1,0 +1,14 @@
+Package: rfuji
+Title: R Package Client for F-UJI
+Version: 1.0.0
+Authors@R: person("Steffen Neumann", email = "sneumann@ipb-halle.de", role = c("aut", "cre"))
+Description: FUJI is a Service for Evaluating Research Data Objects Based on <a href ='https://doi.org/10.5281/zenodo.3775793'>FAIRsFAIR Metrics</a>. <p> This work was supported by the <a href='https://www.fairsfair.eu/'>FAIRsFAIR</a> project (H2020-INFRAEOSC-2018-2020 Grant Agreement 831558).
+URL: https://github.com/NFDI4Chem/rfuji
+BugReports: https://github.com/NFDI4Chem/rfuji/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: MIT License
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc
+RoxygenNote: 6.0.1.9000
